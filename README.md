@@ -33,7 +33,7 @@ An offline-first PWA word editor built with Vue.js, TypeScript, and Fireproof.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/word-editor-pwa.git
+git clone https://github.com/biby-best/word-editor-pwa.git
 cd word-editor-pwa
 ```
 
