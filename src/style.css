@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* Custom Editor Styles */
+.ProseMirror {
+  @apply p-4 min-h-[60vh] bg-white rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  word-wrap: break-word;
+}
+
+.ProseMirror h1 {
+  @apply text-2xl font-bold my-4;
+}
+
+.ProseMirror h2 {
+  @apply text-xl font-bold my-3;
+}
+
+.ProseMirror h3 {
+  @apply text-lg font-bold my-2;
+}
+
+.ProseMirror p {
+  @apply my-2;
+}
+
+.ProseMirror ul {
+  @apply list-disc ml-6 my-2;
+}
+
+.ProseMirror ol {
+  @apply list-decimal ml-6 my-2;
+}
+
+.ProseMirror a {
+  @apply text-blue-600 hover:underline;
+}
+
+.ProseMirror img {
+  @apply max-w-full h-auto;
+}
+
+.editor-toolbar {
+  @apply flex flex-wrap gap-1 p-2 bg-gray-50 rounded-t border border-gray-300 border-b-0;
+}
+
+.toolbar-button {
+  @apply p-2 rounded hover:bg-gray-200 transition-colors;
+}
+
+.toolbar-button.is-active {
+  @apply bg-blue-100 text-blue-700;
+}

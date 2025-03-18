@@ -1,0 +1,48 @@
+{
+  "name": "offline-word-pwa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fireproof/core": "^0.19.125",
+    "@tiptap/extension-bold": "^2.11.5",
+    "@tiptap/extension-document": "^2.11.5",
+    "@tiptap/extension-heading": "^2.11.5",
+    "@tiptap/extension-image": "^2.11.5",
+    "@tiptap/extension-italic": "^2.11.5",
+    "@tiptap/extension-link": "^2.11.5",
+    "@tiptap/extension-list-item": "^2.11.5",
+    "@tiptap/extension-ordered-list": "^2.11.5",
+    "@tiptap/extension-paragraph": "^2.11.5",
+    "@tiptap/extension-text": "^2.11.5",
+    "@tiptap/extension-underline": "^2.11.5",
+    "@tiptap/pm": "^2.11.5",
+    "@tiptap/starter-kit": "^2.11.5",
+    "@tiptap/vue-3": "^2.11.5",
+    "docx": "^9.3.0",
+    "file-saver": "^2.0.5",
+    "pinia": "^3.0.1",
+    "register-service-worker": "^1.7.2",
+    "use-fireproof": "^0.19.125",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.14",
+    "@types/file-saver": "^2.0.7",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.14",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2",
+    "vite-plugin-pwa": "^0.21.1",
+    "vue-tsc": "^3.0.0-alpha.2"
+  }
+}
